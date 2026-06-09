@@ -5,7 +5,7 @@
 #define WIDTH 80
 #define HEIGHT 24
 
-#define EMPTY '_'
+#define EMPTY ' '
 #define PIXEL '*'
 
 char picture[HEIGHT][WIDTH];
@@ -26,7 +26,7 @@ void clearPicture() {
 void displayPicture() {
 
     int i, j;
-
+printf("\n");
     for(i = 0; i < HEIGHT; i++) {
 
         for(j = 0; j < WIDTH; j++) {
