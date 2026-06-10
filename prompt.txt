@@ -1,0 +1,65 @@
+Prompt 1:
+How can I start building a simple graphics editor in C using line drawing functions?
+
+Response:
+The AI suggested starting with a basic canvas system where points could be plotted using coordinates. It explained that the project could be divided into smaller parts like canvas setup, line drawing, shape creation, and rendering improvements. The response also recommended using separate functions for each shape so the code would be easier to manage and debug later.
+
+Prompt 2:
+How do I improve the canvas display formatting in the graphics editor?
+
+Response:
+The AI explained that the display looked unorganized because of spacing and alignment issues in the output. It suggested improving the formatting of rows and columns so that shapes would appear more clearly on the canvas. The response also mentioned adjusting coordinate placement and testing different dimensions for better readability.
+
+Prompt 3:
+How can I draw horizontal and vertical lines correctly in C graphics?
+
+Response:
+The AI provided logic for plotting points between coordinates using loops. It explained how horizontal lines require changing the x-coordinate while keeping the y-coordinate fixed, and vertical lines require changing the y-coordinate while keeping the x-coordinate fixed. The response also suggested testing different coordinate values to make sure the lines were rendering properly.
+
+Prompt 4:
+This is coming for circle with 3 4 5.
+
+Response:
+The AI explained that the issue was likely related to incorrect coordinate calculations while plotting the circle. It suggested improving the circle drawing logic and checking whether the radius values and plotted points were being handled correctly. The response also recommended testing smaller values first to verify that the algorithm was functioning properly.
+
+Prompt 5:
+The triangle is just showing two lines, I need a proper triangle.
+
+Response:
+The AI explained that all three sides of the triangle need to connect properly for the shape to render correctly. It suggested checking the coordinates of each point and verifying whether the final side of the triangle was being drawn. The response also mentioned testing different coordinate combinations to confirm that the triangle logic was working as expected.
+
+Prompt 6:
+It’s not even showing anything.
+
+Response:
+The AI suggested debugging the program step by step by checking the rendering conditions, loop execution, and coordinate values. It also recommended verifying whether the display was refreshing correctly after each drawing operation. The response explained that small logical mistakes in loops or coordinate handling could prevent shapes from appearing on the screen.
+
+Prompt 7:
+How do I upload my graphics editor project to GitHub?
+
+Response:
+The AI guided me through the basic Git commands required to upload the project files to GitHub. It explained the purpose of commands like git add, git commit, and git push, and also described how commits help track project progress during development.
+
+Prompt 8:
+How to see my repositories?
+
+Response:
+The AI explained how to access GitHub repositories from the dashboard and how to view uploaded project files and commit history. It also described how repositories help organize source code and maintain project versions.
+
+Prompt 9:
+Why is it showing only these two files in my repository?
+
+Response:
+The AI explained that GitHub only displays files that were added and committed to the repository. It clarified that the source code file and executable file were the only files currently tracked, and suggested removing unnecessary executable files to make the repository look cleaner and more professional.
+
+Prompt 10:
+How should I organize the development process of my graphics editor project?
+
+Response:
+The AI suggested dividing the project into stages such as setting up the canvas, implementing line drawing, adding shapes like circles and triangles, improving rendering quality, and finally testing and debugging the complete program. It explained that working step by step makes larger programming projects easier to manage and improve over time.
+
+Prompt 11:
+How do I create a prompt.txt file and fill it with the prompts and AI responses used during the project?
+
+Response:
+The AI explained that the prompts and responses related to the graphics editor project could be organized into a text file named prompt.txt. It suggested keeping the file clean and professional by including only project-related discussions, prompts, and summarized AI responses that directly helped during the development of the mini project.
