@@ -45,12 +45,18 @@ void setPixel(int x, int y) {
         picture[y][x] = PIXEL;
     }
 }
-
 void drawLine(int x1, int y1, int x2, int y2) {
 
     int x, y;
 
     if(y1 == y2) {
+
+        if(x1 > x2) {
+
+            int temp = x1;
+            x1 = x2;
+            x2 = temp;
+        }
 
         for(x = x1; x <= x2; x++) {
 
@@ -60,43 +66,19 @@ void drawLine(int x1, int y1, int x2, int y2) {
 
     else if(x1 == x2) {
 
+        if(y1 > y2) {
+
+            int temp = y1;
+            y1 = y2;
+            y2 = temp;
+        }
+
         for(y = y1; y <= y2; y++) {
 
             setPixel(x1, y);
         }
     }
 }
-
-void drawRectangle(int x1, int y1, int x2, int y2) {
-
-    drawLine(x1, y1, x2, y1);
-
-    drawLine(x1, y2, x2, y2);
-
-    drawLine(x1, y1, x1, y2);
-
-    drawLine(x2, y1, x2, y2);
-}
-
-void drawCircle(int cx, int cy, int radius) {
-
-    int x, y;
-
-    for(y = 0; y < HEIGHT; y++) {
-
-        for(x = 0; x < WIDTH; x++) {
-
-            int dx = x - cx;
-            int dy = y - cy;
-
-            if(dx * dx + dy * dy <= radius * radius) {
-
-                setPixel(x, y);
-            }
-        }
-    }
-}
-
 void drawTriangle(int x1, int y1, int x2, int y2, int x3, int y3) {
 
     drawLine(x1, y1, x2, y2);
